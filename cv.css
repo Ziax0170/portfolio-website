@@ -8,13 +8,13 @@ body {
 }
 
 p {
-left: 10%;
-top: 20%;
+left: 5%;
+top: 15%;
 position: absolute;
 color: #fff;
 font-size: 1.2em;
 font-weight: 150;
-  width: 400px;
+  width: 700px;
   border: 15px solid lightgray;
   padding: 50px;
   margin: 20px;
@@ -23,7 +23,7 @@ font-weight: 150;
 
 img {
 right: 5%;
-top: 10%;
+top: 15%;
 position: absolute;
      border: 15px solid lightgray;
   padding: 50px;

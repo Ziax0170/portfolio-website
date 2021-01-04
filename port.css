@@ -6,21 +6,25 @@
 body {
       background-color: gray;
 }
-
-p {
-left: 30%;
-top: 60%;
-position: absolute;
+h2{
+top: 10%;
+position: relative;
 color: #fff;
-font-size: 2em;
+font-size: 3em;
 font-weight: 150;
+text-align: center;
+
+}
+p {
+left: 5%;
+top: 10%;
+position: relative;
+color: #fff;
+font-size: 1.3em;
+font-weight: 150;
+width: 500px;
 }
 
-img {
-right: 30%;
-top: 50%;
-position: absolute;
-}
 
 header {
     color: #fff;
@@ -40,7 +44,6 @@ nav {
 a {
   display: inline;
   padding: 1vw 4vw;
-  background-color: gainsboro;
 border-right: 2px solid black;
 }
 a:last-child {
