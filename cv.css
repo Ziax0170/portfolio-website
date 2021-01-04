@@ -8,18 +8,26 @@ body {
 }
 
 p {
-left: 30%;
-top: 60%;
+left: 10%;
+top: 20%;
 position: absolute;
 color: #fff;
-font-size: 2em;
+font-size: 1.2em;
 font-weight: 150;
+  width: 400px;
+  border: 15px solid lightgray;
+  padding: 50px;
+  margin: 20px;
+
 }
 
 img {
-right: 30%;
-top: 50%;
+right: 5%;
+top: 10%;
 position: absolute;
+     border: 15px solid lightgray;
+  padding: 50px;
+  margin: 20px;
 }
 
 header {
