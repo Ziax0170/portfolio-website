@@ -26,11 +26,31 @@ header {
     color: #fff;
     left: 50%
     display: block;
-  padding: 20px;
-  background-color: #dddddd;
+  background-color: gainsboro;
  list-style-type: none;
-    text-align: center
+    text-align: center;
 }
+nav {
+    display: block;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+    font-size: 1.3em;
+}
+a {
+  display: inline;
+  padding: 1vw 4vw;
+  background-color: gainsboro;
+border-right: 2px solid black;
+}
+a:last-child {
+  border-right: none;
+}
+a:hover {
+  background-color: royalblue;
+}
+
+
 
 .fly-in-text {
 list-style: none;
