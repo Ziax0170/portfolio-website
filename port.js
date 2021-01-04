@@ -1,5 +1,3 @@
-window.addEventListener("load", showStuff);
-
 function showStuff() {
   let hidden = document.getElementById('hidden');
   if (hidden.style.display == "none") {
@@ -8,3 +6,4 @@ function showStuff() {
     hidden.style.display = "none"
   }
 }
+
