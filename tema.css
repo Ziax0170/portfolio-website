@@ -1,0 +1,989 @@
+* {
+     margin: 0;
+    padding: 0;
+}
+
+body {
+  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%)fixed;
+  filter: drop-shadow(0 0 5px white);
+}
+.column {
+  float: left;
+  width: 50%;
+
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.dropbtn {
+  background-color: gainsboro;
+    left: 50%
+    display: block;
+ list-style-type: none;
+    text-align: center;
+    font-size: 1em;
+    border: none;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+      padding-left: 2rem;
+
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+background-color: #1b2735;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+
+}
+ .dropdown-content a:hover {background-color: darkblue;}
+.dropdown:hover .dropdown-content {display: block;}
+
+
+h2{
+top: 10%;
+position: relative;
+color: #fff;
+font-size: 3em;
+font-weight: 150;
+text-align: center;
+
+}
+#text1 {
+top: 10rem;
+position: relative;
+color: #fff;
+font-size: 1.3em;
+font-weight: 150;
+width: 500px;
+}
+
+#læring1 {
+top: 10rem;
+position: relative;
+color: #fff;
+font-size: 1.3em;
+font-weight: 150;
+width: 500px;
+}
+
+header {
+    color: #fff;
+    left: 50%
+    display: block;
+  background-color: gainsboro;
+ list-style-type: none;
+    text-align: center;
+}
+nav {
+    display: block;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+    font-size: 2em;
+
+}
+a {
+  display: inline;
+  padding: 1vw 4vw;
+  background-color: ;
+font-family: Open Sans, Arial;
+}
+a:link {
+  text-decoration: none;
+}
+
+#hidden {
+left: 4rem;
+position: relative;
+color: #fff;
+font-size: 1.3em;
+font-weight: 150;
+width: 500px;
+top:5rem;
+display: block;
+text-decoration: none;
+width: 270px;
+}
+#hidden2 {
+left: 4rem;
+position: relative;
+color: #fff;
+font-size: 1.3em;
+font-weight: 150;
+width: 500px;
+top:5rem;
+display: block;
+}
+#hid {
+left: 4rem;
+position: relative;
+color: #fff;
+font-size: 1.4rem;
+font-weight: 150;
+width: 500px;
+}
+#hid2 {
+left: 4rem;
+position: relative;
+color: #fff;
+font-size: 1.4rem;
+font-weight: 150;
+width: 500px;
+}
+
+a:last-child {
+  border-right: none;
+}
+a:hover {
+  background-color: darkblue;
+}
+.hidden {
+    opacity: 0%
+}
+
+#tema1 {
+top: 5rem;
+position: relative;
+color: #fff;
+font-size: 3em;
+font-weight: 150;
+text-align: center;
+}
+#tema1_pic {
+top: 10rem;
+left: 4rem;
+position: relative;
+}
+#læring {
+top: 15rem;
+left: 2rem;
+position: relative;
+color: #fff;
+font-size: 1.3em;
+font-weight: 150;
+width: 500px;
+}
+
+#text5 {
+top: 10rem;
+position: relative;
+color: #fff;
+font-size: 1.3em;
+font-weight: 150;
+width: 500px;
+}
+
+#tema2 {
+top: 5rem;
+position: relative;
+color: #fff;
+font-size: 3em;
+font-weight: 150;
+text-align: center;
+}
+#pic1 {
+color: #fff;
+font-size: 1.3em;
+font-weight: 150;
+ top: 8rem;
+    position: relative;
+width: 500px;
+}
+#pic2 {
+color: #fff;
+font-size: 1.3em;
+font-weight: 150;
+ top: 15rem;
+ position: relative;
+width: 500px;
+}
+#img1 {
+    width: 500px;
+}
+#img2 {
+    width: 500px;
+}
+
+#tema3 {
+top: 5rem;
+position: relative;
+color: #fff;
+font-size: 3em;
+font-weight: 150;
+text-align: center;
+}
+#text2 {
+top: 10rem;
+position: relative;
+color: #fff;
+font-size: 1.3em;
+font-weight: 150;
+width: 490px;
+}
+#læring2 {
+top: 15rem;
+position: relative;
+color: #fff;
+font-size: 1.3em;
+font-weight: 150;
+width: 500px;
+}
+
+#ide {
+top: 10rem;
+position: relative;
+color: #fff;
+font-size: 3em;
+font-weight: 150;
+text-align: center;
+left: 2rem;
+
+}
+
+#proto {
+top: 15rem;
+position: relative;
+color: #fff;
+font-size: 3em;
+font-weight: 150;
+text-align: center;
+left: 2rem;
+}
+
+#pitch {
+top: 20rem;
+position: relative;
+color: #fff;
+font-size: 3em;
+font-weight: 150;
+text-align: center;
+left: 2rem;
+}
+
+#tema4 {
+top: 5rem;
+position: relative;
+color: #fff;
+font-size: 3em;
+font-weight: 150;
+text-align: center;
+}
+#text3 {
+top: 10rem;
+position: relative;
+color: #fff;
+font-size: 1.3em;
+font-weight: 150;
+width: 500px;
+}
+#læring3 {
+top: 15rem;
+position: relative;
+color: #fff;
+font-size: 1.3em;
+font-weight: 150;
+width: 500px;
+}
+
+#asset {
+top: 10rem;
+position: relative;
+font-size: 3em;
+font-weight: 150;
+text-align: center;
+left: 2rem;
+}
+
+#anima {
+top: 15rem;
+position: relative;
+font-size: 3em;
+font-weight: 150;
+text-align: center;
+left: 2rem;
+}
+
+#tema5 {
+top: 5rem;
+position: relative;
+color: #fff;
+font-size: 3em;
+font-weight: 150;
+text-align: center;
+}
+#text4 {
+top: 10rem;
+position: relative;
+color: #fff;
+font-size: 1.3em;
+font-weight: 150;
+width: 500px;
+}
+
+#læring4 {
+top: 15rem;
+position: relative;
+color: #fff;
+font-size: 1.3em;
+font-weight: 150;
+width: 500px;
+}
+#vid {
+top: 10rem;
+position: relative;
+font-size: 3em;
+font-weight: 150;
+text-align: center;
+left: 2rem;
+width: 500px;
+height: 300px;
+}
+
+#des {
+top: 15rem;
+position: relative;
+font-size: 3em;
+font-weight: 150;
+text-align: center;
+left: 2rem;
+}
+
+
+#link {
+top: 1rem;
+position: relative;
+font-size: 1em;
+font-weight: 150;
+text-align: center;
+}
+
+#Tema6 {
+top: 5rem;
+position: relative;
+color: #fff;
+font-size: 3em;
+font-weight: 150;
+text-align: center;
+}
+
+#btp1 {
+top: 15rem;
+position: relative;
+font-size: 1em;
+font-weight: 150;
+text-align: center;
+left: 30%;
+}
+
+#tnp1 {
+   top: 15rem;
+position: relative;
+font-size: 1em;
+font-weight: 150;
+text-align: center;
+left: 50%;
+}
+
+#tpp1 {
+    top: 15rem;
+position: relative;
+font-size: 1em;
+font-weight: 150;
+text-align: center;
+left: 10%;
+}
+#btp2 {
+top: 15rem;
+position: relative;
+font-size: 3em;
+font-weight: 150;
+text-align: center;
+left: 30%;
+}
+
+#tnp2 {
+   top: 15rem;
+position: relative;
+font-size: 3em;
+font-weight: 150;
+text-align: center;
+left: 50%;
+
+}
+
+#tpp2 {
+    top: 15rem;
+position: relative;
+font-size: 3em;
+font-weight: 150;
+text-align: center;
+left: 10%;
+}
+#btp2img {
+width: 50px;
+height: 50px;
+}
+#tnp2img {
+width: 50px;
+height: 50px;
+}
+
+#tpp2img {
+width: 50px;
+height: 50px;
+}
+#btp3 {
+top: 25rem;
+position: relative;
+font-size: 3em;
+font-weight: 150;
+text-align: center;
+left: 30%;
+}
+
+#tnp3 {
+   top: 25rem;
+position: relative;
+font-size: 3em;
+font-weight: 150;
+text-align: center;
+left: 50%;
+}
+
+#tpp3 {
+    top: 25rem;
+position: relative;
+font-size: 3em;
+font-weight: 150;
+text-align: center;
+left: 5%;
+}
+#btp4 {
+top: 25rem;
+position: relative;
+font-size: 3em;
+font-weight: 150;
+text-align: center;
+left: 30%;
+}
+
+#tnp4 {
+   top: 25rem;
+position: relative;
+font-size: 3em;
+font-weight: 150;
+text-align: center;
+left: 50%;
+}
+
+#tpp4 {
+    top: 25rem;
+position: relative;
+font-size: 3em;
+font-weight: 150;
+text-align: center;
+left: 5%;
+}
+
+#btp5 {
+top: 25rem;
+position: relative;
+font-size: 3em;
+font-weight: 150;
+text-align: center;
+left: 30%;
+}
+
+#tnp5 {
+   top: 25rem;
+position: relative;
+font-size: 3em;
+font-weight: 150;
+text-align: center;
+left: 50%;
+}
+
+#tpp5 {
+    top: 25rem;
+position: relative;
+font-size: 3em;
+font-weight: 150;
+text-align: center;
+left: 5%;
+}
+#btp6 {
+top: 25rem;
+position: relative;
+font-size: 3em;
+font-weight: 150;
+text-align: center;
+left: 30%;
+}
+
+#tnp6 {
+   top: 25rem;
+position: relative;
+font-size: 3em;
+font-weight: 150;
+text-align: center;
+left: 40%;
+}
+
+#tpp6 {
+    top: 25rem;
+position: relative;
+font-size: 3em;
+font-weight: 150;
+text-align: center;
+left: 5%;
+}
+
+@media only screen and (max-width:500px) {
+
+    .row {
+        column-count: 1;
+        width: 300px;
+        position: relative;
+    }
+
+    a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+    width: 150px;
+}
+    #tema1 {
+    top: 5rem;
+    position: relative;
+    color: #fff;
+    font-size: 3em;
+    font-weight: 150;
+    text-align: center;
+}
+    #text5 {
+    top: 10rem;
+    position: relative;
+    color: #fff;
+    font-size: 1.3em;
+    font-weight: 150;
+    width: 250px;
+    left: -5rem;
+}
+    #læring {
+    top: 13rem;
+    left: -5rem;
+    position: relative;
+    color: #fff;
+    font-size: 1.3em;
+    font-weight: 150;
+    width: 250px;
+}
+#tema1_pic {
+    top: 40rem;
+    left: 2rem;
+    position: relative;
+    width: 300px;
+    height: 400px;
+}
+    #tpp1 {
+    font-size: 1em;
+    font-weight: 150;
+    text-align: center;
+    top: 45rem;
+    left: 1rem;
+}
+    #btp1 {
+    font-size: 1em;
+    font-weight: 150;
+    text-align: center;
+    top: 45rem;
+    left: 4rem;
+}
+    #tnp1 {
+    font-size: 1em;
+    font-weight: 150;
+    text-align: center;
+    top: 45rem;
+    left: 8rem;
+}
+
+    #tema2 {
+    top: 5rem;
+    position: relative;
+    color: #fff;
+    font-size: 3em;
+    font-weight: 150;
+    text-align: center;
+}
+    #text1 {
+    top: 10rem;
+    position: relative;
+    color: #fff;
+    font-size: 1.3em;
+    font-weight: 150;
+    width: 270px;
+    left: -6rem;
+}
+    #læring1 {
+    top: 10rem;
+    position: relative;
+    color: #fff;
+    font-size: 1.3em;
+    font-weight: 150;
+    width: 270px;
+    left: -5rem;
+}
+
+ #pic1 {
+    color: #fff;
+    font-size: 1.3em;
+    font-weight: 150;
+    top: 40rem;
+    position: relative;
+    width: 300px;
+    height: 400px;
+    left: 1.5rem;
+}
+    #hid {
+    left: 2rem;
+    position: relative;
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: 150;
+    width: 500px;
+}
+   #hidden {
+left: 3rem;
+position: relative;
+color: #fff;
+font-size: 1.3em;
+font-weight: 150;
+top:65rem;
+display: block;
+text-decoration: none;
+width: 210px;
+}
+    #pic2 {
+    color: #fff;
+    font-size: 1.3em;
+    font-weight: 150;
+    top: 72rem;
+    position: relative;
+    width: 300px;
+    height: 400px;
+    left: -8rem;
+}
+    #img1 {
+    width: 300px;
+}
+#img2 {
+    width: 300px;
+}
+
+#hidden2 {
+left: -7rem;
+position: relative;
+color: #fff;
+font-size: 1.3em;
+font-weight: 150;
+width: 500px;
+top: 69rem;
+display: block;
+}
+    #hid2 {
+    left: 2rem;
+    position: relative;
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: 150;
+    width: 500px;
+}
+    #tpp2 {
+    top: 80rem;
+    position: relative;
+    font-size: 3em;
+    font-weight: 150;
+    text-align: center;
+    left: 1rem;
+}
+    #btp2 {
+    top: 80rem;
+    position: relative;
+    font-size: 3em;
+    font-weight: 150;
+    text-align: center;
+    left: 5rem;
+}
+    #tnp2 {
+    top: 80rem;
+    position: relative;
+    font-size: 3em;
+    font-weight: 150;
+    text-align: center;
+    left: 9rem;
+}
+#btp2img {
+width: 40px;
+height: 40px;
+}
+#tnp2img {
+width: 40px;
+height: 40px;
+}
+
+#tpp2img {
+width: 40px;
+height: 40px;
+}
+
+#text2 {
+    top: 10rem;
+    position: relative;
+    color: #fff;
+    font-size: 1.3em;
+    font-weight: 150;
+    width: 270px;
+    left: -6rem;
+}
+#læring2 {
+    top: 15rem;
+    position: relative;
+    color: #fff;
+    font-size: 1.3em;
+    font-weight: 150;
+    width: 270px;
+    left: -6rem;
+}
+    #ide {
+    top: 50rem;
+    position: relative;
+    color: #fff;
+    font-size: 3em;
+    font-weight: 150;
+    text-align: center;
+    left: 2rem;
+    width: 300px;
+    height: 400px;
+}
+    #proto {
+    top: 55rem;
+    position: relative;
+    color: #fff;
+    font-size: 3em;
+    font-weight: 150;
+    text-align: center;
+    left: 2rem;
+    width: 300px;
+    height: 400px;
+}
+    #pitch {
+    top: 60rem;
+    position: relative;
+    color: #fff;
+    font-size: 3em;
+    font-weight: 150;
+    text-align: center;
+    left: 2rem;
+    width: 300px;
+    height: 400px;
+}
+#tpp3 {
+    top: 65rem;
+    position: relative;
+    font-size: 3em;
+    font-weight: 150;
+    text-align: center;
+    left: 1rem;
+}
+#btp3 {
+    top: 65rem;
+    position: relative;
+    font-size: 3em;
+    font-weight: 150;
+    text-align: center;
+    left: 4rem;
+}
+#tnp3 {
+    top: 65rem;
+    position: relative;
+    font-size: 3em;
+    font-weight: 150;
+    text-align: center;
+    left: 7rem;
+}
+
+    #text3 {
+    top: 10rem;
+    position: relative;
+    color: #fff;
+    font-size: 1.3em;
+    font-weight: 150;
+    width: 270px;
+    left: -6rem;
+}
+    #læring3 {
+    top: 15rem;
+    position: relative;
+    color: #fff;
+    font-size: 1.3em;
+    font-weight: 150;
+    width: 280px;
+    left: -6rem;
+}
+    #asset {
+    top: 95rem;
+    position: relative;
+    font-size: 3em;
+    font-weight: 150;
+    text-align: center;
+    left: 2rem;
+    width: 300px;
+    height: 400px
+}
+    #anima {
+    top: 100rem;
+    position: relative;
+    font-size: 3em;
+    font-weight: 150;
+    text-align: center;
+    left: 2rem;
+     width: 300px;
+    height: 400px
+}
+    #tpp4 {
+    top: 80rem;
+    position: relative;
+    font-size: 3em;
+    font-weight: 150;
+    text-align: center;
+    left: 1rem;
+}
+    #btp4 {
+    top: 80rem;
+    position: relative;
+    font-size: 3em;
+    font-weight: 150;
+    text-align: center;
+    left: 4rem;
+}
+    #tnp4 {
+    top: 80rem;
+    position: relative;
+    font-size: 3em;
+    font-weight: 150;
+    text-align: center;
+    left: 7rem;
+}
+#text4 {
+    top: 10rem;
+    position: relative;
+    color: #fff;
+    font-size: 1.3em;
+    font-weight: 150;
+    width: 270px;
+    left: -6rem;
+}
+    #læring4 {
+    top: 15rem;
+    position: relative;
+    color: #fff;
+    font-size: 1.3em;
+    font-weight: 150;
+    width: 270px;
+    left: -6rem;
+}
+#vid {
+    top: 90rem;
+    position: relative;
+    font-size: 3em;
+    font-weight: 150;
+    text-align: center;
+    left: 2rem;
+    width: 300px;
+    height: 200px;
+}
+#des {
+    top: 95rem;
+    position: relative;
+    font-size: 3em;
+    font-weight: 150;
+    text-align: center;
+    left: 2rem;
+    width: 300px;
+    height: 400px;
+}
+    #tpp5 {
+    top: 65rem;
+    position: relative;
+    font-size: 3em;
+    font-weight: 150;
+    text-align: center;
+    left: 1rem;
+}
+    #btp5 {
+    top: 65rem;
+    position: relative;
+    font-size: 3em;
+    font-weight: 150;
+    text-align: center;
+    left: 4rem;
+}
+    #tnp5 {
+    top: 65rem;
+    position: relative;
+    font-size: 3em;
+    font-weight: 150;
+    text-align: center;
+    left: 7rem;
+}
+   #text6 {
+    top: 10rem;
+    position: relative;
+    color: #fff;
+    font-size: 1.3em;
+    font-weight: 150;
+    width: 270px;
+    left: 3rem;
+}
+    #læring5 {
+    top: 15rem;
+    position: relative;
+    color: #fff;
+    font-size: 1.3em;
+    font-weight: 150;
+    width: 270px;
+    left: 3rem;
+}
+    #tpp6 {
+    top: 20rem;
+    position: relative;
+    font-size: 3em;
+    font-weight: 150;
+    text-align: center;
+    left: 1rem;
+}
+    #btp6 {
+    top: 20rem;
+    position: relative;
+    font-size: 3em;
+    font-weight: 150;
+    text-align: center;
+    left: 4rem;
+}
+
+
+
+}

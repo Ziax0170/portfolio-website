@@ -4,26 +4,55 @@
 }
 
 body {
-      background-color: gray;
+  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%) fixed;
+  filter: drop-shadow(0 0 5px white);
 }
-h2{
-top: 10%;
-position: relative;
-color: #fff;
-font-size: 3em;
-font-weight: 150;
-text-align: center;
+.column {
+  float: left;
+  width: 33%;
+
 
 }
-p {
-left: 5%;
-top: 10%;
-position: relative;
-color: #fff;
-font-size: 1.3em;
-font-weight: 150;
-width: 500px;
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
+.dropbtn {
+  color: #fff;
+    left: 50%
+    display: block;
+ list-style-type: none;
+    text-align: center;
+    font-size: 1em;
+    padding: 0;
+border: none;
+background: none;
+
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+  padding-left: 2rem;
+
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+background-color: #1b2735;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+ .dropdown-content a:hover {background-color: darkblue;}
+.dropdown:hover .dropdown-content {display: block;}
 
 
 header {
@@ -39,26 +68,472 @@ nav {
   text-align: center;
   padding: 14px 20px;
   text-decoration: none;
-    font-size: 1.3em;
+    font-size: 2em;
+        padding-right: 7rem;
+
 }
 a {
   display: inline;
   padding: 1vw 4vw;
-  background-color: ;
-    border-right: 2px solid black;
+ font-family: Open Sans, Arial;
 
 }
-#hidden {
-      border-right: none;
+a:link {
+  text-decoration: none;
+    color: #fff;
+}
+a:active {
+  color: darkblue;
+}
+#temaside {
+    position: relative;
+    top: 2rem;
+    left: 1rem;
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+#hidden3 {
+left: 4rem;
+position: relative;
+color: #fff;
+font-size: 1.3em;
+font-weight: 150;
+width: 350px;
+top:4rem;
+display: none;
+}
+#hidden4 {
+left: 4rem;
+position: relative;
+color: #fff;
+font-size: 1.3em;
+font-weight: 150;
+width: 350px;
+    top:4rem;
+display: none;
 
 }
+#hidden5 {
+left: 4rem;
+position: relative;
+color: #fff;
+font-size: 1.3em;
+font-weight: 150;
+width: 350px;
+    top:4rem;
+display: none;
+
+}
+#hidden6 {
+left: 4rem;
+position: relative;
+color: #fff;
+font-size: 1.3em;
+font-weight: 150;
+width: 350px;
+    top:10rem;
+display: none;
+
+}
+#hidden7 {
+left: 4rem;
+position: relative;
+color: #fff;
+font-size: 1.3em;
+font-weight: 150;
+width: 350px;
+    top:10rem;
+display: none;
+
+}
+#hidden8 {
+left: 4rem;
+position: relative;
+color: #fff;
+font-size: 1.3em;
+font-weight: 150;
+width: 350px;
+    top:10rem;
+display: none;
+
+}
+
+#hid {
+left: 4rem;
+position: relative;
+color: #fff;
+font-size: 1.4rem;
+font-weight: 150;
+width: 300px;
+}
+
 
 a:last-child {
   border-right: none;
 }
 a:hover {
-  background-color: royalblue;
+  background-color: darkblue;
 }
 .hidden {
     opacity: 0%
+}
+
+
+#pic3 {
+color: #fff;
+font-size: 1.3em;
+font-weight: 150;
+ top: 2rem;
+    position: relative;
+    padding-left: 2rem;
+}
+#pic4 {
+color: #fff;
+font-size: 1.3em;
+font-weight: 150;
+ top: 2rem;
+ position: relative;
+ padding-left: 2rem;
+}
+#pic5 {
+color: #fff;
+font-size: 1.3em;
+font-weight: 150;
+ top: 2rem;
+ position: relative;
+ padding-left: 2rem;
+
+}
+#pic6 {
+color: #fff;
+font-size: 1.3em;
+font-weight: 150;
+ top: 8rem;
+ position: relative;
+ padding-left: 2rem;
+
+}
+#pic7 {
+color: #fff;
+font-size: 1.3em;
+font-weight: 150;
+ top: 8rem;
+ position: relative;
+ padding-left: 2rem;
+
+}
+#pic8 {
+color: #fff;
+font-size: 1.3em;
+font-weight: 150;
+width: 300px;
+ top: 8rem;
+ position: relative;
+ padding-left: 2rem;
+
+}
+
+#Tema1 {
+top: 2rem;
+position: relative;
+color: #fff;
+font-size: 3em;
+font-weight: 150;
+text-align: center;
+padding-bottom: 2rem;
+}
+#Tema2 {
+top: 2rem;
+position: relative;
+color: #fff;
+font-size: 3em;
+font-weight: 150;
+text-align: center;
+padding-bottom: 2rem;
+}
+#Tema3 {
+top: 2rem;
+position: relative;
+color: #fff;
+font-size: 3em;
+font-weight: 150;
+text-align: center;
+padding-bottom: 2rem;
+}
+
+#Tema4 {
+top: 8rem;
+position: relative;
+color: #fff;
+font-size: 3em;
+font-weight: 150;
+text-align: center;
+padding-bottom: 2rem;
+}
+#Tema5 {
+top: 8rem;
+position: relative;
+color: #fff;
+font-size: 3em;
+font-weight: 150;
+text-align: center;
+padding-bottom: 2rem;
+}
+#Tema6 {
+top: 8rem;
+position: relative;
+color: #fff;
+font-size: 3em;
+font-weight: 150;
+text-align: center;
+padding-bottom: 2rem;
+}
+
+#btp {
+top: 20rem;
+position: relative;
+font-size: 3em;
+font-weight: 150;
+text-align: center;
+left: 40%;
+padding-bottom: 3rem;
+}
+
+#tnp {
+   top: 20rem;
+position: relative;
+font-size: 3em;
+font-weight: 150;
+text-align: center;
+left: 40%;
+padding-bottom: 3rem;
+}
+
+#tpp {
+    top: 20rem;
+position: relative;
+font-size: 3em;
+font-weight: 150;
+text-align: center;
+left: 10%;
+padding-bottom: 3rem;
+}
+
+#link {
+top: 1rem;
+position: relative;
+font-size: 1em;
+font-weight: 150;
+text-align: center;
+}
+
+@media only screen and (max-width:500px) {
+
+    .row {
+        column-count: 1;
+        width: 300px;
+        position: relative;
+    }
+    #Tema1 {
+    top: 2rem;
+    position: relative;
+    color: #fff;
+    font-size: 3em;
+    font-weight: 150;
+    text-align: center;
+    padding-bottom: 2rem;
+    left: 8rem;
+}
+    #pic3 {
+    color: #fff;
+    font-size: 1.3em;
+    font-weight: 150;
+    width: 300px;
+}
+    #hidden3 {
+    color: #fff;
+    font-size: 1.3em;
+    font-weight: 150;
+    width: 270px;
+    padding-bottom: 2rem;
+    opacity: 1;
+    display: block;
+
+}
+    #Tema2 {
+    top: 65rem;
+    position: relative;
+    color: #fff;
+    font-size: 3em;
+    font-weight: 150;
+    text-align: center;
+    padding-bottom: 2rem;
+    left: 3rem;
+}
+    #pic4 {
+    color: #fff;
+    font-size: 1.3em;
+    font-weight: 150;
+    top: 65rem;
+    position: relative;
+    padding-left: 0.5rem;
+    right: 5rem;
+}
+     #hidden4 {
+    color: #fff;
+    font-size: 1.3em;
+    font-weight: 150;
+    width: 270px;
+    padding-bottom: 2rem;
+    opacity: 1;
+    display: block;
+    top: 68rem;
+    right: 8rem;
+    left: -3rem;
+
+}
+    #Tema3 {
+    top: 130rem;
+    position: relative;
+    color: #fff;
+    font-size: 3em;
+    font-weight: 150;
+    text-align: center;
+    padding-bottom: 1rem;
+    right: 3.5rem;
+}
+    #pic5 {
+    color: #fff;
+    font-size: 1.3em;
+    font-weight: 150;
+    top: 130rem;
+    position: relative;
+    padding-left: 0.5rem;
+    right: 11rem;
+}
+    #hidden5 {
+    color: #fff;
+    font-size: 1.3em;
+    font-weight: 150;
+    width: 270px;
+    padding-bottom: 2rem;
+    opacity: 1;
+    display: block;
+    top: 132rem;
+    right: 8rem;
+    left: -9rem;
+}
+    #Tema4 {
+    top: 135rem;
+    position: relative;
+    color: #fff;
+    font-size: 3em;
+    font-weight: 150;
+    text-align: center;
+    padding-bottom: 1rem;
+    left: 8rem;
+}
+    #pic6 {
+    color: #fff;
+    font-size: 1.3em;
+    font-weight: 150;
+    top: 131rem;
+    position: relative;
+    padding-left: 1rem;
+}
+    #hidden6 {
+    color: #fff;
+    font-size: 1.3em;
+    font-weight: 150;
+    width: 270px;
+    padding-bottom: 2rem;
+    opacity: 1;
+    display: block;
+    top: 132rem;
+    right: 2rem;
+    left: 3rem;
+}
+
+    #Tema5 {
+    top: 190rem;
+    position: relative;
+    color: #fff;
+    font-size: 3em;
+    font-weight: 150;
+    text-align: center;
+    padding-bottom: 1rem;
+    left: 2rem;
+}
+#pic7 {
+    color: #fff;
+    font-size: 1.3em;
+    font-weight: 190;
+    top: 190rem;
+    position: relative;
+    right: 7rem;
+}
+    #hidden7 {
+    color: #fff;
+    font-size: 1.3em;
+    font-weight: 150;
+    width: 270px;
+    padding-bottom: 2rem;
+    opacity: 1;
+    display: block;
+    top: 192rem;
+    right: 12rem;
+    left: -2rem;
+}
+  #Tema6 {
+    top: 260rem;
+    position: relative;
+    color: #fff;
+    font-size: 3em;
+    font-weight: 150;
+    text-align: center;
+    right: 4rem;
+}
+   #pic8 {
+    color: #fff;
+    font-size: 1.3em;
+    font-weight: 150;
+    width: 300px;
+    top: 260rem;
+    position: relative;
+    right: 13rem;
+}
+    #hidden8 {
+    color: #fff;
+    font-size: 1.3em;
+    font-weight: 150;
+    width: 270px;
+    padding-bottom: 2rem;
+    opacity: 1;
+    display: block;
+    top: 262rem;
+    right: 2rem;
+    left: -8rem;
+}
+    #btp {
+    top: 255rem;
+    position: relative;
+    font-size: 3em;
+    font-weight: 150;
+    text-align: center;
+    left: 40%;
+    padding-bottom: 3rem;
+}
+    nav {
+    display: block;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 2em;
+}
+
+
+
+
+
 }
