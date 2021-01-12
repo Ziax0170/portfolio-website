@@ -10,8 +10,6 @@ body {
 .column {
   float: left;
   width: 33%;
-
-
 }
 
 .row:after {
@@ -21,7 +19,7 @@ body {
 }
 .dropbtn {
   color: #fff;
-    left: 50%
+    left: 50%;
     display: block;
  list-style-type: none;
     text-align: center;
@@ -57,7 +55,7 @@ background-color: #1b2735;
 
 header {
     color: #fff;
-    left: 50%
+    left: 50%;
     display: block;
   background-color: gainsboro;
  list-style-type: none;
@@ -69,7 +67,7 @@ nav {
   padding: 14px 20px;
   text-decoration: none;
     font-size: 2em;
-        padding-right: 7rem;
+    padding-right: 7rem;
 
 }
 a {
@@ -92,13 +90,47 @@ a:active {
     text-align: center;
     font-size: 1.6rem;
 }
+#temaside2 {
+    position: relative;
+    top: 2rem;
+    left: 1rem;
+    text-align: center;
+    font-size: 1.6rem;
+}
+#temaside3 {
+    position: relative;
+    top: 2rem;
+    left: 1rem;
+    text-align: center;
+    font-size: 1.6rem;
+}
+#temaside4 {
+    position: relative;
+    top: 2rem;
+    left: 1rem;
+    text-align: center;
+    font-size: 1.6rem;
+}
+#temaside5 {
+    position: relative;
+    top: 2rem;
+    left: 1rem;
+    text-align: center;
+    font-size: 1.6rem;
+}
+#temaside6 {
+    position: relative;
+    top: 2rem;
+    left: 1rem;
+    text-align: center;
+    font-size: 1.6rem;
+}
 
 #hidden3 {
 left: 4rem;
 position: relative;
 color: #fff;
 font-size: 1.3em;
-font-weight: 150;
 width: 350px;
 top:4rem;
 display: none;
@@ -108,7 +140,6 @@ left: 4rem;
 position: relative;
 color: #fff;
 font-size: 1.3em;
-font-weight: 150;
 width: 350px;
     top:4rem;
 display: none;
@@ -119,7 +150,6 @@ left: 4rem;
 position: relative;
 color: #fff;
 font-size: 1.3em;
-font-weight: 150;
 width: 350px;
     top:4rem;
 display: none;
@@ -130,7 +160,6 @@ left: 4rem;
 position: relative;
 color: #fff;
 font-size: 1.3em;
-font-weight: 150;
 width: 350px;
     top:10rem;
 display: none;
@@ -141,7 +170,6 @@ left: 4rem;
 position: relative;
 color: #fff;
 font-size: 1.3em;
-font-weight: 150;
 width: 350px;
     top:10rem;
 display: none;
@@ -152,7 +180,6 @@ left: 4rem;
 position: relative;
 color: #fff;
 font-size: 1.3em;
-font-weight: 150;
 width: 350px;
     top:10rem;
 display: none;
@@ -164,7 +191,41 @@ left: 4rem;
 position: relative;
 color: #fff;
 font-size: 1.4rem;
-font-weight: 150;
+width: 300px;
+}
+#hid2 {
+left: 4rem;
+position: relative;
+color: #fff;
+font-size: 1.4rem;
+width: 300px;
+}
+#hid3 {
+left: 4rem;
+position: relative;
+color: #fff;
+font-size: 1.4rem;
+width: 300px;
+}
+#hid4 {
+left: 4rem;
+position: relative;
+color: #fff;
+font-size: 1.4rem;
+width: 300px;
+}
+#hid5 {
+left: 4rem;
+position: relative;
+color: #fff;
+font-size: 1.4rem;
+width: 300px;
+}
+#hid6 {
+left: 4rem;
+position: relative;
+color: #fff;
+font-size: 1.4rem;
 width: 300px;
 }
 
@@ -183,7 +244,6 @@ a:hover {
 #pic3 {
 color: #fff;
 font-size: 1.3em;
-font-weight: 150;
  top: 2rem;
     position: relative;
     padding-left: 2rem;
@@ -191,7 +251,6 @@ font-weight: 150;
 #pic4 {
 color: #fff;
 font-size: 1.3em;
-font-weight: 150;
  top: 2rem;
  position: relative;
  padding-left: 2rem;
@@ -199,7 +258,6 @@ font-weight: 150;
 #pic5 {
 color: #fff;
 font-size: 1.3em;
-font-weight: 150;
  top: 2rem;
  position: relative;
  padding-left: 2rem;
@@ -208,7 +266,6 @@ font-weight: 150;
 #pic6 {
 color: #fff;
 font-size: 1.3em;
-font-weight: 150;
  top: 8rem;
  position: relative;
  padding-left: 2rem;
@@ -217,7 +274,6 @@ font-weight: 150;
 #pic7 {
 color: #fff;
 font-size: 1.3em;
-font-weight: 150;
  top: 8rem;
  position: relative;
  padding-left: 2rem;
@@ -226,7 +282,6 @@ font-weight: 150;
 #pic8 {
 color: #fff;
 font-size: 1.3em;
-font-weight: 150;
 width: 300px;
  top: 8rem;
  position: relative;
@@ -240,7 +295,6 @@ top: 2rem;
 position: relative;
 color: #fff;
 font-size: 3em;
-font-weight: 150;
 text-align: center;
 padding-bottom: 2rem;
 }
@@ -249,7 +303,6 @@ top: 2rem;
 position: relative;
 color: #fff;
 font-size: 3em;
-font-weight: 150;
 text-align: center;
 padding-bottom: 2rem;
 }
@@ -258,7 +311,6 @@ top: 2rem;
 position: relative;
 color: #fff;
 font-size: 3em;
-font-weight: 150;
 text-align: center;
 padding-bottom: 2rem;
 }
@@ -268,7 +320,6 @@ top: 8rem;
 position: relative;
 color: #fff;
 font-size: 3em;
-font-weight: 150;
 text-align: center;
 padding-bottom: 2rem;
 }
@@ -277,7 +328,6 @@ top: 8rem;
 position: relative;
 color: #fff;
 font-size: 3em;
-font-weight: 150;
 text-align: center;
 padding-bottom: 2rem;
 }
@@ -286,7 +336,6 @@ top: 8rem;
 position: relative;
 color: #fff;
 font-size: 3em;
-font-weight: 150;
 text-align: center;
 padding-bottom: 2rem;
 }
@@ -295,7 +344,6 @@ padding-bottom: 2rem;
 top: 20rem;
 position: relative;
 font-size: 3em;
-font-weight: 150;
 text-align: center;
 left: 40%;
 padding-bottom: 3rem;
@@ -305,7 +353,6 @@ padding-bottom: 3rem;
    top: 20rem;
 position: relative;
 font-size: 3em;
-font-weight: 150;
 text-align: center;
 left: 40%;
 padding-bottom: 3rem;
@@ -315,7 +362,6 @@ padding-bottom: 3rem;
     top: 20rem;
 position: relative;
 font-size: 3em;
-font-weight: 150;
 text-align: center;
 left: 10%;
 padding-bottom: 3rem;
@@ -325,7 +371,6 @@ padding-bottom: 3rem;
 top: 1rem;
 position: relative;
 font-size: 1em;
-font-weight: 150;
 text-align: center;
 }
 
@@ -341,7 +386,6 @@ text-align: center;
     position: relative;
     color: #fff;
     font-size: 3em;
-    font-weight: 150;
     text-align: center;
     padding-bottom: 2rem;
     left: 8rem;
@@ -349,13 +393,11 @@ text-align: center;
     #pic3 {
     color: #fff;
     font-size: 1.3em;
-    font-weight: 150;
     width: 300px;
 }
     #hidden3 {
     color: #fff;
     font-size: 1.3em;
-    font-weight: 150;
     width: 270px;
     padding-bottom: 2rem;
     opacity: 1;
@@ -367,7 +409,6 @@ text-align: center;
     position: relative;
     color: #fff;
     font-size: 3em;
-    font-weight: 150;
     text-align: center;
     padding-bottom: 2rem;
     left: 3rem;
@@ -375,7 +416,6 @@ text-align: center;
     #pic4 {
     color: #fff;
     font-size: 1.3em;
-    font-weight: 150;
     top: 65rem;
     position: relative;
     padding-left: 0.5rem;
@@ -384,7 +424,6 @@ text-align: center;
      #hidden4 {
     color: #fff;
     font-size: 1.3em;
-    font-weight: 150;
     width: 270px;
     padding-bottom: 2rem;
     opacity: 1;
@@ -399,7 +438,6 @@ text-align: center;
     position: relative;
     color: #fff;
     font-size: 3em;
-    font-weight: 150;
     text-align: center;
     padding-bottom: 1rem;
     right: 3.5rem;
@@ -407,7 +445,6 @@ text-align: center;
     #pic5 {
     color: #fff;
     font-size: 1.3em;
-    font-weight: 150;
     top: 130rem;
     position: relative;
     padding-left: 0.5rem;
@@ -416,7 +453,6 @@ text-align: center;
     #hidden5 {
     color: #fff;
     font-size: 1.3em;
-    font-weight: 150;
     width: 270px;
     padding-bottom: 2rem;
     opacity: 1;
@@ -430,7 +466,6 @@ text-align: center;
     position: relative;
     color: #fff;
     font-size: 3em;
-    font-weight: 150;
     text-align: center;
     padding-bottom: 1rem;
     left: 8rem;
@@ -438,7 +473,6 @@ text-align: center;
     #pic6 {
     color: #fff;
     font-size: 1.3em;
-    font-weight: 150;
     top: 131rem;
     position: relative;
     padding-left: 1rem;
@@ -446,7 +480,6 @@ text-align: center;
     #hidden6 {
     color: #fff;
     font-size: 1.3em;
-    font-weight: 150;
     width: 270px;
     padding-bottom: 2rem;
     opacity: 1;
@@ -461,7 +494,6 @@ text-align: center;
     position: relative;
     color: #fff;
     font-size: 3em;
-    font-weight: 150;
     text-align: center;
     padding-bottom: 1rem;
     left: 2rem;
@@ -469,7 +501,6 @@ text-align: center;
 #pic7 {
     color: #fff;
     font-size: 1.3em;
-    font-weight: 190;
     top: 190rem;
     position: relative;
     right: 7rem;
@@ -477,7 +508,6 @@ text-align: center;
     #hidden7 {
     color: #fff;
     font-size: 1.3em;
-    font-weight: 150;
     width: 270px;
     padding-bottom: 2rem;
     opacity: 1;
@@ -491,14 +521,12 @@ text-align: center;
     position: relative;
     color: #fff;
     font-size: 3em;
-    font-weight: 150;
     text-align: center;
     right: 4rem;
 }
    #pic8 {
     color: #fff;
     font-size: 1.3em;
-    font-weight: 150;
     width: 300px;
     top: 260rem;
     position: relative;
@@ -507,7 +535,6 @@ text-align: center;
     #hidden8 {
     color: #fff;
     font-size: 1.3em;
-    font-weight: 150;
     width: 270px;
     padding-bottom: 2rem;
     opacity: 1;
@@ -520,7 +547,6 @@ text-align: center;
     top: 255rem;
     position: relative;
     font-size: 3em;
-    font-weight: 150;
     text-align: center;
     left: 40%;
     padding-bottom: 3rem;
@@ -532,8 +558,6 @@ text-align: center;
     text-decoration: none;
     font-size: 2em;
 }
-
-
 
 
 

@@ -20,7 +20,7 @@ body {
 }
 .dropbtn {
   background-color: gainsboro;
-    left: 50%
+    left: 50%;
     display: block;
  list-style-type: none;
     text-align: center;
@@ -57,7 +57,6 @@ top: 10%;
 position: relative;
 color: #fff;
 font-size: 3em;
-font-weight: 150;
 text-align: center;
 
 }
@@ -66,7 +65,6 @@ top: 10rem;
 position: relative;
 color: #fff;
 font-size: 1.3em;
-font-weight: 150;
 width: 500px;
 }
 
@@ -75,13 +73,12 @@ top: 10rem;
 position: relative;
 color: #fff;
 font-size: 1.3em;
-font-weight: 150;
 width: 500px;
 }
 
 header {
     color: #fff;
-    left: 50%
+    left: 50%;
     display: block;
   background-color: gainsboro;
  list-style-type: none;
@@ -98,8 +95,8 @@ nav {
 a {
   display: inline;
   padding: 1vw 4vw;
-  background-color: ;
-font-family: Open Sans, Arial;
+  font-family: Open Sans, Arial;
+  color: #fff;    
 }
 a:link {
   text-decoration: none;
@@ -110,7 +107,6 @@ left: 2rem;
 position: relative;
 color: #fff;
 font-size: 1.3em;
-font-weight: 150;
 width: 500px;
 top: 10rem;
 display: block;
@@ -123,7 +119,6 @@ left: 2rem;
 position: relative;
 color: #fff;
 font-size: 1.3em;
-font-weight: 150;
 width: 500px;
 top: 18rem;
 display: block;
@@ -133,7 +128,6 @@ left: 4rem;
 position: relative;
 color: #fff;
 font-size: 1.4rem;
-font-weight: 150;
 width: 500px;
 }
 #hid2 {
@@ -141,7 +135,6 @@ left: 4rem;
 position: relative;
 color: #fff;
 font-size: 1.4rem;
-font-weight: 150;
 width: 500px;
 }
 
@@ -160,7 +153,6 @@ top: 5rem;
 position: relative;
 color: #fff;
 font-size: 3em;
-font-weight: 150;
 text-align: center;
 }
 #tema1_pic {
@@ -169,12 +161,11 @@ left: 4rem;
 position: relative;
 }
 #læring {
-top: 15rem;
+top: 12rem;
 left: 2rem;
 position: relative;
 color: #fff;
 font-size: 1.3em;
-font-weight: 150;
 width: 500px;
 }
 
@@ -183,8 +174,14 @@ top: 10rem;
 position: relative;
 color: #fff;
 font-size: 1.3em;
-font-weight: 150;
 width: 500px;
+}
+#lært {
+top: 14rem;
+position: relative;
+color: #fff;
+font-size: 1.3em;
+width: 500px;    
 }
 
 #tema2 {
@@ -192,13 +189,18 @@ top: 5rem;
 position: relative;
 color: #fff;
 font-size: 3em;
-font-weight: 150;
 text-align: center;
+}
+#lært2 {
+top: 13rem;
+position: relative;
+color: #fff;
+font-size: 1.3em;
+width: 500px;    
 }
 #pic1 {
 color: #fff;
 font-size: 1.3em;
-font-weight: 150;
  top: 8rem;
     position: relative;
 width: 500px;
@@ -206,7 +208,6 @@ width: 500px;
 #pic2 {
 color: #fff;
 font-size: 1.3em;
-font-weight: 150;
  top: 15rem;
  position: relative;
 width: 500px;
@@ -223,7 +224,6 @@ top: 5rem;
 position: relative;
 color: #fff;
 font-size: 3em;
-font-weight: 150;
 text-align: center;
 }
 #text2 {
@@ -231,16 +231,21 @@ top: 10rem;
 position: relative;
 color: #fff;
 font-size: 1.3em;
-font-weight: 150;
 width: 490px;
 }
 #læring2 {
+top: 11rem;
+position: relative;
+color: #fff;
+font-size: 1.3em;
+width: 500px;
+}
+#lært3 {
 top: 15rem;
 position: relative;
 color: #fff;
 font-size: 1.3em;
-font-weight: 150;
-width: 500px;
+width: 500px;    
 }
 
 #ide {
@@ -248,7 +253,6 @@ top: 10rem;
 position: relative;
 color: #fff;
 font-size: 3em;
-font-weight: 150;
 text-align: center;
 left: 2rem;
 
@@ -259,7 +263,6 @@ top: 15rem;
 position: relative;
 color: #fff;
 font-size: 3em;
-font-weight: 150;
 text-align: center;
 left: 2rem;
 }
@@ -269,7 +272,6 @@ top: 20rem;
 position: relative;
 color: #fff;
 font-size: 3em;
-font-weight: 150;
 text-align: center;
 left: 2rem;
 }
@@ -279,7 +281,6 @@ top: 5rem;
 position: relative;
 color: #fff;
 font-size: 3em;
-font-weight: 150;
 text-align: center;
 }
 #text3 {
@@ -287,23 +288,27 @@ top: 10rem;
 position: relative;
 color: #fff;
 font-size: 1.3em;
-font-weight: 150;
 width: 500px;
 }
 #læring3 {
+top: 12rem;
+position: relative;
+color: #fff;
+font-size: 1.3em;
+width: 500px;
+}
+#lært4 {
 top: 15rem;
 position: relative;
 color: #fff;
 font-size: 1.3em;
-font-weight: 150;
-width: 500px;
+width: 500px;    
 }
 
 #asset {
 top: 10rem;
 position: relative;
 font-size: 3em;
-font-weight: 150;
 text-align: center;
 left: 2rem;
 }
@@ -312,7 +317,6 @@ left: 2rem;
 top: 15rem;
 position: relative;
 font-size: 3em;
-font-weight: 150;
 text-align: center;
 left: 2rem;
 }
@@ -322,7 +326,6 @@ top: 5rem;
 position: relative;
 color: #fff;
 font-size: 3em;
-font-weight: 150;
 text-align: center;
 }
 #text4 {
@@ -330,23 +333,27 @@ top: 10rem;
 position: relative;
 color: #fff;
 font-size: 1.3em;
-font-weight: 150;
 width: 500px;
 }
 
 #læring4 {
+top: 12rem;
+position: relative;
+color: #fff;
+font-size: 1.3em;
+width: 500px;
+}
+#lært5 {
 top: 15rem;
 position: relative;
 color: #fff;
 font-size: 1.3em;
-font-weight: 150;
-width: 500px;
+width: 500px;    
 }
 #vid {
 top: 10rem;
 position: relative;
 font-size: 3em;
-font-weight: 150;
 text-align: center;
 left: 2rem;
 width: 500px;
@@ -357,7 +364,6 @@ height: 300px;
 top: 15rem;
 position: relative;
 font-size: 3em;
-font-weight: 150;
 text-align: center;
 left: 2rem;
 }
@@ -366,7 +372,6 @@ left: 2rem;
 top: 1rem;
 position: relative;
 font-size: 1em;
-font-weight: 150;
 text-align: center;
 }
 #text6 {
@@ -374,18 +379,32 @@ text-align: center;
     position: relative;
     color: #fff;
     font-size: 1.3em;
-    font-weight: 150;
     width: 500px;
-    left: 50rem;
+    left: 10rem;
 }
     #læring5 {
-    top: 15rem;
+    top: 12rem;
     position: relative;
     color: #fff;
     font-size: 1.3em;
-    font-weight: 150;
     width: 500px;
-    left: 50rem;
+    left: 10rem;
+}
+#lært6 {
+top: 15rem;
+position: relative;
+color: #fff;
+font-size: 1.3em;
+width: 500px; 
+left: 10rem;    
+}
+#pic9 {
+color: #fff;
+font-size: 1.3em;
+ top: 10rem;
+    position: relative;
+width: 500px;
+    left: 2rem;
 }
 
 #Tema6 {
@@ -393,7 +412,6 @@ top: 5rem;
 position: relative;
 color: #fff;
 font-size: 3em;
-font-weight: 150;
 text-align: center;
 }
 
@@ -401,7 +419,6 @@ text-align: center;
 top: 15rem;
 position: relative;
 font-size: 1em;
-font-weight: 150;
 text-align: center;
 left: 30%;
 }
@@ -410,7 +427,6 @@ left: 30%;
    top: 15rem;
 position: relative;
 font-size: 1em;
-font-weight: 150;
 text-align: center;
 left: 50%;
 }
@@ -419,7 +435,6 @@ left: 50%;
     top: 15rem;
 position: relative;
 font-size: 1em;
-font-weight: 150;
 text-align: center;
 left: 10%;
 }
@@ -427,7 +442,6 @@ left: 10%;
 top: 15rem;
 position: relative;
 font-size: 3em;
-font-weight: 150;
 text-align: center;
 left: 30%;
 }
@@ -436,7 +450,6 @@ left: 30%;
    top: 15rem;
 position: relative;
 font-size: 3em;
-font-weight: 150;
 text-align: center;
 left: 50%;
 
@@ -446,7 +459,6 @@ left: 50%;
     top: 15rem;
 position: relative;
 font-size: 3em;
-font-weight: 150;
 text-align: center;
 left: 10%;
 }
@@ -467,7 +479,6 @@ height: 50px;
 top: 25rem;
 position: relative;
 font-size: 3em;
-font-weight: 150;
 text-align: center;
 left: 30%;
 }
@@ -476,7 +487,6 @@ left: 30%;
    top: 25rem;
 position: relative;
 font-size: 3em;
-font-weight: 150;
 text-align: center;
 left: 50%;
 }
@@ -485,7 +495,6 @@ left: 50%;
     top: 25rem;
 position: relative;
 font-size: 3em;
-font-weight: 150;
 text-align: center;
 left: 5%;
 }
@@ -493,7 +502,6 @@ left: 5%;
 top: 25rem;
 position: relative;
 font-size: 3em;
-font-weight: 150;
 text-align: center;
 left: 30%;
 }
@@ -502,7 +510,6 @@ left: 30%;
    top: 25rem;
 position: relative;
 font-size: 3em;
-font-weight: 150;
 text-align: center;
 left: 50%;
 }
@@ -511,7 +518,6 @@ left: 50%;
     top: 25rem;
 position: relative;
 font-size: 3em;
-font-weight: 150;
 text-align: center;
 left: 5%;
 }
@@ -520,7 +526,6 @@ left: 5%;
 top: 25rem;
 position: relative;
 font-size: 3em;
-font-weight: 150;
 text-align: center;
 left: 30%;
 }
@@ -529,7 +534,6 @@ left: 30%;
    top: 25rem;
 position: relative;
 font-size: 3em;
-font-weight: 150;
 text-align: center;
 left: 50%;
 }
@@ -538,7 +542,6 @@ left: 50%;
     top: 25rem;
 position: relative;
 font-size: 3em;
-font-weight: 150;
 text-align: center;
 left: 5%;
 }
@@ -546,7 +549,6 @@ left: 5%;
 top: 25rem;
 position: relative;
 font-size: 3em;
-font-weight: 150;
 text-align: center;
 left: 30%;
 }
@@ -555,7 +557,6 @@ left: 30%;
    top: 25rem;
 position: relative;
 font-size: 3em;
-font-weight: 150;
 text-align: center;
 left: 40%;
 }
@@ -564,7 +565,6 @@ left: 40%;
     top: 25rem;
 position: relative;
 font-size: 3em;
-font-weight: 150;
 text-align: center;
 left: 5%;
 }
@@ -573,7 +573,6 @@ left: 5%;
 
     .row {
         column-count: 1;
-        width: 300px;
         position: relative;
     }
 
@@ -588,7 +587,6 @@ left: 5%;
     position: relative;
     color: #fff;
     font-size: 3em;
-    font-weight: 150;
     text-align: center;
 }
     #text5 {
@@ -596,7 +594,6 @@ left: 5%;
     position: relative;
     color: #fff;
     font-size: 1.3em;
-    font-weight: 150;
     width: 250px;
     left: -5rem;
 }
@@ -606,11 +603,18 @@ left: 5%;
     position: relative;
     color: #fff;
     font-size: 1.3em;
-    font-weight: 150;
     width: 250px;
 }
+    #lært {
+top: 14rem;
+position: relative;
+color: #fff;
+font-size: 1.3em;
+width: 250px; 
+left: -5rem;    
+}
 #tema1_pic {
-    top: 40rem;
+    top: 65rem;
     left: 2rem;
     position: relative;
     width: 300px;
@@ -618,21 +622,18 @@ left: 5%;
 }
     #tpp1 {
     font-size: 1em;
-    font-weight: 150;
     text-align: center;
     top: 45rem;
     left: 1rem;
 }
     #btp1 {
     font-size: 1em;
-    font-weight: 150;
     text-align: center;
     top: 45rem;
     left: 4rem;
 }
     #tnp1 {
     font-size: 1em;
-    font-weight: 150;
     text-align: center;
     top: 45rem;
     left: 8rem;
@@ -643,7 +644,6 @@ left: 5%;
     position: relative;
     color: #fff;
     font-size: 3em;
-    font-weight: 150;
     text-align: center;
 }
     #text1 {
@@ -651,25 +651,30 @@ left: 5%;
     position: relative;
     color: #fff;
     font-size: 1.3em;
-    font-weight: 150;
     width: 270px;
-    left: -6rem;
+    left: -8rem;
 }
     #læring1 {
     top: 10rem;
     position: relative;
     color: #fff;
     font-size: 1.3em;
-    font-weight: 150;
     width: 270px;
-    left: -5rem;
+    left: -7rem;
+}
+     #lært2 {
+top: 14rem;
+position: relative;
+color: #fff;
+font-size: 1.3em;
+width: 250px; 
+left: -7rem;    
 }
 
  #pic1 {
     color: #fff;
     font-size: 1.3em;
-    font-weight: 150;
-    top: 40rem;
+    top: 70rem;
     position: relative;
     width: 300px;
     height: 400px;
@@ -680,16 +685,14 @@ left: 5%;
     position: relative;
     color: #fff;
     font-size: 1.4rem;
-    font-weight: 150;
-    width: 500px;
+    width: 250px;
 }
    #hidden {
 left: 3rem;
 position: relative;
 color: #fff;
 font-size: 1.3em;
-font-weight: 150;
-top:65rem;
+top: 96rem;
 display: block;
 text-decoration: none;
 width: 210px;
@@ -697,12 +700,11 @@ width: 210px;
     #pic2 {
     color: #fff;
     font-size: 1.3em;
-    font-weight: 150;
     top: 72rem;
     position: relative;
     width: 300px;
     height: 400px;
-    left: -8rem;
+    left: -10rem;
 }
     #img1 {
     width: 300px;
@@ -716,8 +718,7 @@ left: -7rem;
 position: relative;
 color: #fff;
 font-size: 1.3em;
-font-weight: 150;
-width: 500px;
+width: 250px;
 top: 69rem;
 display: block;
 }
@@ -726,14 +727,12 @@ display: block;
     position: relative;
     color: #fff;
     font-size: 1.4rem;
-    font-weight: 150;
-    width: 500px;
+    width: 250px;
 }
     #tpp2 {
     top: 80rem;
     position: relative;
     font-size: 3em;
-    font-weight: 150;
     text-align: center;
     left: 1rem;
 }
@@ -741,7 +740,6 @@ display: block;
     top: 80rem;
     position: relative;
     font-size: 3em;
-    font-weight: 150;
     text-align: center;
     left: 5rem;
 }
@@ -749,7 +747,6 @@ display: block;
     top: 80rem;
     position: relative;
     font-size: 3em;
-    font-weight: 150;
     text-align: center;
     left: 9rem;
 }
@@ -772,73 +769,73 @@ height: 40px;
     position: relative;
     color: #fff;
     font-size: 1.3em;
-    font-weight: 150;
     width: 270px;
     left: -6rem;
 }
 #læring2 {
-    top: 15rem;
+    top: 12rem;
     position: relative;
     color: #fff;
     font-size: 1.3em;
-    font-weight: 150;
     width: 270px;
     left: -6rem;
 }
+    #lært3 {
+top: 14rem;
+position: relative;
+color: #fff;
+font-size: 1.3em;
+width: 250px; 
+left: -7rem;    
+}
     #ide {
-    top: 50rem;
+    top: 85rem;
     position: relative;
     color: #fff;
     font-size: 3em;
-    font-weight: 150;
     text-align: center;
     left: 2rem;
     width: 300px;
     height: 400px;
 }
     #proto {
-    top: 55rem;
+    top: 90rem;
     position: relative;
     color: #fff;
     font-size: 3em;
-    font-weight: 150;
     text-align: center;
     left: 2rem;
     width: 300px;
     height: 400px;
 }
     #pitch {
-    top: 60rem;
+    top: 95rem;
     position: relative;
     color: #fff;
     font-size: 3em;
-    font-weight: 150;
     text-align: center;
     left: 2rem;
     width: 300px;
     height: 400px;
 }
 #tpp3 {
-    top: 65rem;
+    top: 100rem;
     position: relative;
     font-size: 3em;
-    font-weight: 150;
     text-align: center;
     left: 1rem;
 }
 #btp3 {
-    top: 65rem;
+    top: 100rem;
     position: relative;
     font-size: 3em;
-    font-weight: 150;
     text-align: center;
     left: 4rem;
 }
 #tnp3 {
-    top: 65rem;
+    top: 100rem;
     position: relative;
     font-size: 3em;
-    font-weight: 150;
     text-align: center;
     left: 7rem;
 }
@@ -848,34 +845,38 @@ height: 40px;
     position: relative;
     color: #fff;
     font-size: 1.3em;
-    font-weight: 150;
     width: 270px;
-    left: -6rem;
+    left: -8rem;
 }
     #læring3 {
-    top: 15rem;
+    top: 12rem;
     position: relative;
     color: #fff;
     font-size: 1.3em;
-    font-weight: 150;
     width: 280px;
-    left: -6rem;
+    left: -7rem;
+}
+    #lært4 {
+top: 14rem;
+position: relative;
+color: #fff;
+font-size: 1.3em;
+width: 250px; 
+left: -7rem;    
 }
     #asset {
-    top: 95rem;
+    top: 85rem;
     position: relative;
     font-size: 3em;
-    font-weight: 150;
     text-align: center;
     left: 2rem;
     width: 300px;
     height: 400px
 }
     #anima {
-    top: 100rem;
+    top: 90rem;
     position: relative;
     font-size: 3em;
-    font-weight: 150;
     text-align: center;
     left: 2rem;
      width: 300px;
@@ -885,7 +886,6 @@ height: 40px;
     top: 80rem;
     position: relative;
     font-size: 3em;
-    font-weight: 150;
     text-align: center;
     left: 1rem;
 }
@@ -893,7 +893,6 @@ height: 40px;
     top: 80rem;
     position: relative;
     font-size: 3em;
-    font-weight: 150;
     text-align: center;
     left: 4rem;
 }
@@ -901,7 +900,6 @@ height: 40px;
     top: 80rem;
     position: relative;
     font-size: 3em;
-    font-weight: 150;
     text-align: center;
     left: 7rem;
 }
@@ -910,34 +908,38 @@ height: 40px;
     position: relative;
     color: #fff;
     font-size: 1.3em;
-    font-weight: 150;
     width: 270px;
-    left: -6rem;
+    left: -8rem;
 }
     #læring4 {
-    top: 15rem;
+    top: 12rem;
     position: relative;
     color: #fff;
     font-size: 1.3em;
-    font-weight: 150;
     width: 270px;
-    left: -6rem;
+    left: -7rem;
+}
+    #lært5 {
+top: 14rem;
+position: relative;
+color: #fff;
+font-size: 1.3em;
+width: 250px; 
+left: -7rem;    
 }
 #vid {
-    top: 90rem;
+    top: 110rem;
     position: relative;
     font-size: 3em;
-    font-weight: 150;
     text-align: center;
     left: 2rem;
     width: 300px;
     height: 200px;
 }
 #des {
-    top: 95rem;
+    top: 115rem;
     position: relative;
     font-size: 3em;
-    font-weight: 150;
     text-align: center;
     left: 2rem;
     width: 300px;
@@ -947,7 +949,6 @@ height: 40px;
     top: 65rem;
     position: relative;
     font-size: 3em;
-    font-weight: 150;
     text-align: center;
     left: 1rem;
 }
@@ -955,7 +956,6 @@ height: 40px;
     top: 65rem;
     position: relative;
     font-size: 3em;
-    font-weight: 150;
     text-align: center;
     left: 4rem;
 }
@@ -963,7 +963,6 @@ height: 40px;
     top: 65rem;
     position: relative;
     font-size: 3em;
-    font-weight: 150;
     text-align: center;
     left: 7rem;
 }
@@ -972,32 +971,44 @@ height: 40px;
     position: relative;
     color: #fff;
     font-size: 1.3em;
-    font-weight: 150;
     width: 270px;
-    left: 3rem;
+    left: -8rem;
 }
     #læring5 {
     top: 15rem;
     position: relative;
     color: #fff;
     font-size: 1.3em;
-    font-weight: 150;
     width: 270px;
-    left: 3rem;
+    left: -7rem;
+}
+     #lært6 {
+top: 18rem;
+position: relative;
+color: #fff;
+font-size: 1.3em;
+width: 250px; 
+left: -7rem;    
+}
+    #pic9 {
+    color: #fff;
+    font-size: 1.3em;
+    top: 125rem;
+    position: relative;
+    width: 300px;
+    left: 2rem;
 }
     #tpp6 {
-    top: 20rem;
+    top: 35rem;
     position: relative;
     font-size: 3em;
-    font-weight: 150;
     text-align: center;
     left: 1rem;
 }
     #btp6 {
-    top: 20rem;
+    top: 35rem;
     position: relative;
     font-size: 3em;
-    font-weight: 150;
     text-align: center;
     left: 4rem;
 }
