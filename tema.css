@@ -106,25 +106,26 @@ a:link {
 }
 
 #hidden {
-left: 4rem;
+left: 2rem;
 position: relative;
 color: #fff;
 font-size: 1.3em;
 font-weight: 150;
 width: 500px;
-top:5rem;
+top: 10rem;
 display: block;
 text-decoration: none;
-width: 270px;
+width: 500px;
+display: block;
 }
 #hidden2 {
-left: 4rem;
+left: 2rem;
 position: relative;
 color: #fff;
 font-size: 1.3em;
 font-weight: 150;
 width: 500px;
-top:5rem;
+top: 18rem;
 display: block;
 }
 #hid {
@@ -361,13 +362,30 @@ text-align: center;
 left: 2rem;
 }
 
-
 #link {
 top: 1rem;
 position: relative;
 font-size: 1em;
 font-weight: 150;
 text-align: center;
+}
+#text6 {
+    top: 10rem;
+    position: relative;
+    color: #fff;
+    font-size: 1.3em;
+    font-weight: 150;
+    width: 500px;
+    left: 50rem;
+}
+    #læring5 {
+    top: 15rem;
+    position: relative;
+    color: #fff;
+    font-size: 1.3em;
+    font-weight: 150;
+    width: 500px;
+    left: 50rem;
 }
 
 #Tema6 {
