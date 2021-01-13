@@ -142,7 +142,7 @@ background-color:  #1b2735 ;
 .fly-in-text.hidden li:nth-child(8) { transform: translateX(-400px) translateY(200px); }
 .fly-in-text.hidden li:nth-child(9) { transform: translateX(40px) translateY(300px); }
 
-@media only screen and (max-width:500px) {
+@media only screen and (max-width:800px) {
 
 body {
   background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%) fixed;

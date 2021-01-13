@@ -146,7 +146,7 @@ background-color: #1b2735;
  .dropdown-content a:hover {background-color: darkblue;}
 .dropdown:hover .dropdown-content {display: block;}
 
-@media only screen and (max-width:500px) {
+@media only screen and (max-width:800px) {
 
     #border {
     left: 0%;

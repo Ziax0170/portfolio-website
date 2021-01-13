@@ -374,7 +374,7 @@ font-size: 1em;
 text-align: center;
 }
 
-@media only screen and (max-width:500px) {
+@media only screen and (max-width:800px) {
 
     .row {
         column-count: 1;
